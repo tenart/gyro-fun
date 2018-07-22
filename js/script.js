@@ -8,11 +8,14 @@ var renderer;
 var scene;
 var camera;
 
-if( window.DeviceMotionEvent ) {
-    window.addEventListener("devicemotion", motion, false);
-} else {
-    console.log("DeviceMotionEvent is not supported");
-}
+window.addEventListener("deviceorientation", function( event ) {
+    $("#x").text(event.beta);
+    $("#y").text(event.gamma);
+    $("#z").text(event.alpha);
+    rameses.rotation.x = degToRad( event.beta );
+    rameses.rotation.y = degToRad( event.gamma );
+    rameses.rotation.z = degToRad( event.alpha );
+});
 
 function motion(event){
     /*
