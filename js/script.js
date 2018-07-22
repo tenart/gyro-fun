@@ -88,8 +88,8 @@ function init() {
 
 function animate() {
 	requestAnimationFrame( animate );
-    rameses.rotation.x += 0.01;
-    rameses.rotation.y += 0.01;
+    //rameses.rotation.x += 0.01;
+    //rameses.rotation.y += 0.01;
 	renderer.render( scene, camera );
     motion();
 }
