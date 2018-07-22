@@ -12,9 +12,9 @@ window.addEventListener("deviceorientation", function( event ) {
     $("#x").text(event.beta);
     $("#y").text(event.gamma);
     $("#z").text(event.alpha);
-    rameses.rotation.x = degToRad( event.beta );
-    rameses.rotation.y = degToRad( event.gamma );
-    rameses.rotation.z = degToRad( event.alpha );
+    rameses.rotation.x = degToRad( event.beta ) * -1;
+    rameses.rotation.y = degToRad( event.gamma ) * -1;
+    rameses.rotation.z = degToRad( event.alpha ) * -1;
 });
 
 function motion(event){
