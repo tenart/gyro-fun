@@ -25,6 +25,9 @@ function motion(event){
     $("#x").text(event.acceleration.x);
     $("#y").text(event.acceleration.y);
     $("#z").text(event.acceleration.z);
+    rameses.rotation.x = event.acceleration.x;
+    rameses.rotation.y = event.acceleration.y;
+    rameses.rotation.z = event.acceleration.z;
 }
 
 function init() {
