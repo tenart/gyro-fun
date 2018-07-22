@@ -1,0 +1,12 @@
+body {
+    background: blue;
+    overflow: hidden;
+}
+
+#debug {
+	position: absolute;
+    z-index: 999;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    font-family: monospace;
+}

@@ -1,0 +1,30 @@
+# File produced by Open Asset Import Library (http://www.assimp.sf.net)
+# (assimp v3.1.187496374)
+
+newmtl ID22
+Kd 0.501961 0.501961 0.501961
+Ka 0.1 0.1 0.1
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+d 1
+Ns 10
+illum 2
+
+newmtl ID32
+Kd 1 1 1
+Ka 0.1 0.1 0.1
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+d 1
+Ns 10
+illum 2
+
+newmtl ID6
+Kd 0.823529 0.705882 0.54902
+Ka 0.1 0.1 0.1
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+d 1
+Ns 10
+illum 2
+
